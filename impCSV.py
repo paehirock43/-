@@ -13,7 +13,7 @@ database = 'pract' # >>>>>>>>>>>>>>เปลี่ยนชื่อ DATABASE �
 db_url = f'mysql+pymysql://{username}:{password}@{host}:{port}/{database}'
 engine = create_engine(db_url)
 # Define the folder containing CSV files
-folder_path = '../data/archive' #>>>>>>>>ย้ายตามจุดที่ folder archieve อยู่<<<<<<<<<<
+folder_path = 'archive' #>>>>>>>>ย้ายตามจุดที่ folder archieve อยู่<<<<<<<<<<
 
 # Loop through all files in the folder
 for filename in os.listdir(folder_path):
